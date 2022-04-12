@@ -34,7 +34,8 @@ const Contact = () => {
             <h5>+51920686378</h5>
             <a
               href="https://api.whatsapp.com/send?phone=+51920686378"
-              target="_blank"
+              target="_blank" 
+              rel="noopener"
             >
               Send a Messager
             </a>
@@ -49,7 +50,7 @@ const Contact = () => {
             <RiMessengerLine className="contact_option_icon" />
             <h4>Messenger</h4>
             <h5>Facebook</h5>
-            <a href="https://m.me/alida.c.chauca" target="_blank">
+            <a href="https://m.me/alida.c.chauca" target="_blank" rel="noopener">
               Send a Messager
             </a>
           </article>
