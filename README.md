@@ -68,3 +68,11 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+Esta es una seccion para recordar el despliegue paso a paso
+   luego de crear en el packjson ` "homepage":"http://alidacamposchauca.com",`
+   abrir otra terminal y correr `npm run build`
+   ahora nos vamos a la carpeta enel escritorio donde esta alojado el proyecto y lo compimimos
+   luego vamos a la pagina de hostin nombre del proyecto `portfolio_Alida_Campos` clave `MjlJSsseoy37Ba%GXQZN`Fallido
+   

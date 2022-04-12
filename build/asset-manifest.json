@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/static/css/main.e390324b.css",
+    "main.js": "/static/js/main.953d65b1.js",
+    "static/media/portfolio2_Movies.jpg": "/static/media/portfolio2_Movies.12c5bd80713888816228.jpg",
+    "static/media/portfolioPI.jpg": "/static/media/portfolioPI.d43f727c0ed671e742c1.jpg",
+    "static/media/mee.png": "/static/media/mee.131217b6a5d5c56588c1.png",
+    "static/media/DanyCeretty.jpeg": "/static/media/DanyCeretty.2bfddab08285cbf96fa1.jpeg",
+    "static/media/nosotros.jpeg": "/static/media/nosotros.83fbbc30d617d2c1f45a.jpeg",
+    "static/media/JSeekers_1.jpg": "/static/media/JSeekers_1.5c6f1afd894819cbdb94.jpg",
+    "static/media/Lu_Englender.jpeg": "/static/media/Lu_Englender.daca39ba20af2417a5fc.jpeg",
+    "static/media/CV2.pdf": "/static/media/CV2.be9d81289928eadb179d.pdf",
+    "static/media/Valen_Quiroga.jpeg": "/static/media/Valen_Quiroga.97363213abbcbabf3bcd.jpeg",
+    "index.html": "/index.html",
+    "main.e390324b.css.map": "/static/css/main.e390324b.css.map",
+    "main.953d65b1.js.map": "/static/js/main.953d65b1.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e390324b.css",
+    "static/js/main.953d65b1.js"
+  ]
+}
