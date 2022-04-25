@@ -23,8 +23,8 @@ const Contact = () => {
 
   return (
     <section id="contact">
-      <h5>Get In Toch</h5>
-      <h2>Contact Me</h2>
+      <h5>Ponte en contacto</h5>
+      <h2>Contáctame</h2>
 
       <div className="container contact__container">
         <div className="contact__options">
@@ -37,21 +37,21 @@ const Contact = () => {
               target="_blank" 
               rel="noreferrer"
             >
-              Send a Messager
+              Enviar Mensaje
             </a>
           </article>
           <article className="contact__option">
             <MdOutlineEmail className="contact_option_icon" />
             <h4>Email</h4>
             <h5>alidacch@gmail.com</h5>
-            <a href="mailto:alidacch@gmail.com">Send a Messager</a>
+            <a href="mailto:alidacch@gmail.com">Enviar Mensaje</a>
           </article>
           <article className="contact__option">
             <RiMessengerLine className="contact_option_icon" />
             <h4>Messenger</h4>
             <h5>Facebook</h5>
             <a href="https://m.me/alida.c.chauca" target="_blank" rel="noreferrer">
-              Send a Messager
+              Enviar Mensaje
             </a>
           </article>
           
@@ -61,21 +61,21 @@ const Contact = () => {
           <input
             type="text"
             name="name"
-            placeholder="Your Full Name"
+            placeholder="Nombre"
             required
           />
           <input type="email"
            name="email" 
-           placeholder="Your Email"
+           placeholder="Email"
            required />
           <textarea
             name="message"
             rows="7"
-            placeholder="Your Messager"
+            placeholder="Mensaje"
             required
           ></textarea>
           <button type="submit" className="btn btn-primary">
-            Send Message
+            Enviar
           </button>
         </form>
       </div>

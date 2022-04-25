@@ -8,9 +8,9 @@ const Header = () => {
   return (
     <header id='home'>
       <div className='container header__container'>
-        <h5>Hello I'm</h5>
+        <h4>Hola Yo soy</h4>
         <h1>Alida Campos Chauca</h1>
-        <h5 className='text-light'> Fullstack Developer </h5>
+        <h3 className='text-light'> Fullstack Developer (React Redux JavaScript) </h3>
         <CTA/>
         <HeaderSocial/>
         <div className='me'>

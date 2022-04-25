@@ -20,30 +20,28 @@ const data = [
   {
     avatar: Danny,
     name: "Danilo Ceretty",
-    review:
-  " We have known each other with Ali since our first steps in programming, an incredible woman and colleague, we worked together on several projects with scrum methodology as a full stack. their dedication and commitment is impeccable.",
-      // " Con Ali nos conocemos desde nuestros primeros pasos en la programación, una mujer y compañera increíble, trabajamos juntos en varios proyectos con metodología scrum como full stack. su dedicación y compromiso es impecable.",
+    review:   " Con Ali nos conocemos desde nuestros primeros pasos en la programación, una mujer y compañera increíble, trabajamos juntos en varios proyectos con metodología scrum como full stack. su dedicación y compromiso es impecable.",
+  // " We have known each other with Ali since our first steps in programming, an incredible woman and colleague, we worked together on several projects with scrum methodology as a full stack. their dedication and commitment is impeccable.",
   },
   {
     avatar: Valen,
     name: "Valentina Quirga",
-    review:
-    "Working with Ali is very easy, she is a good colleague, organized, with great ideas and above all an excellent person. It was really a pleasure to team up with her 🤍",
-      // " Trabajar con Ali es muy fácil, es buena compañera, organizada, con grandes ideas y sobre todo excelente persona. Realmente fue un placer formar equipo con ella 🤍",
+    review:" Trabajar con Ali es muy fácil, es buena compañera, organizada, con grandes ideas y sobre todo excelente persona. Realmente fue un placer formar equipo con ella 🤍",
+    // "Working with Ali is very easy, she is a good colleague, organized, with great ideas and above all an excellent person. It was really a pleasure to team up with her 🤍",
   },
   {
     avatar: Lu,
     name: "Lucia ",
-    review: "Working with Ali has been a very enjoyable experience, she is a great teammate. It has great capacities for educability, resilience and proactivity.",
-      // " Trabajar con Ali ha sido una experiencia muy amena, es una gran compañera de equipo. Cuenta con grandes capacidades de educabilidad, resiliencia y proactividad.",
+    review: " Trabajar con Ali ha sido una experiencia muy amena, es una gran compañera de equipo. Cuenta con grandes capacidades de educabilidad, resiliencia y proactividad.",
+    // "Working with Ali has been a very enjoyable experience, she is a great teammate. It has great capacities for educability, resilience and proactivity.",
   },
 ];
 
 const Testimonial = () => {
   return (
     <section id="testimonials">
-      <h5>Bootcamp mate’s reviews</h5>
-      <h2>Testimonials</h2>
+      <h5>Compañero recientes de Bootcamp Henry</h5>
+      <h2>Testimonios</h2>
 
       <Swiper
         className="container testimonials__container"
