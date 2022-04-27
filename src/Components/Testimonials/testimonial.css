@@ -24,7 +24,7 @@
 }
 
 .client__review {
-    color: var(--color-light);
+    color: var(--color-light );
     font-size: 300;
     display: block;
     width: 80%;

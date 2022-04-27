@@ -3,6 +3,7 @@ import "./portafolio.css";
 import JSeekers from "../../assets/JSeekers_1.jpg";
 import PortfolioPI from "../../assets/portfolioPI.jpg";
 import Movies from "../../assets/portfolio2_Movies.jpg";
+import Mi_Porfolio from "../../assets/Mi_Porfolio.jpg";
 
 // DO NOT USE THE IMAGES IN PTODUCTION
 const data = [
@@ -16,17 +17,24 @@ const data = [
   {
     id: 2,
     image: PortfolioPI,
-    title: "Proyecto de Pokemon (Postgress, Express, React, Redux Nodejs)",
+    title: "PI Pokemon (Postgress, Express, React, Redux Nodejs )",
     github: "https://github.com/AlyPeru/Proyecto-Idividual",
     demos: "https://www.youtube.com/watch?v=TbchJbl6E38&t=7s",
   },
   {
     id: 3,
     image: Movies,
-    title: "App de Movies",
+    title: "App de Movies (React Material-Ui Grid, Scroll_Infinite)",
     github: "https://github.com/AlyPeru/my-app-movies",
     demos: "https://inspiring-fudge-c4b15b.netlify.app/",
   },
+  {
+    id: 4,
+    image: Mi_Porfolio ,
+    title: "Mi Porfolio (React, React-icons Grid CSS  Router-Dom)             ",
+    github: "https://github.com/AlyPeru/react-portafolio-website-1",
+    demos: "https://alyperu-portfolio.netlify.app/",
+  }
 ];
 
 const Portafolio = () => {
@@ -40,9 +48,9 @@ const Portafolio = () => {
           return (
             <article key={id} className="portfolio__item">
               <div className="portfolio__item-image">
-                <img src={image} alt={title} />
+                <img  src={image} alt={title} />
               </div>
-              <h3>{title}</h3>
+              <h4>{title}</h4>
               <div className="portfolio__items-cta">
                 <a href={github} className="btn" target="_blank" rel="noreferrer">
                   Github
